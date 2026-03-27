@@ -1,0 +1,79 @@
+.rooms-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem 4rem;
+}
+
+.rooms-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.rooms-header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 0.5rem;
+}
+
+.rooms-header p {
+  color: #666;
+  font-size: 1rem;
+}
+
+.rooms-filter {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  background: #f9f9f9;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  flex-wrap: wrap;
+}
+
+.rooms-filter label {
+  font-weight: 600;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.rooms-filter select {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  background: #fff;
+}
+
+.rooms-filter select:focus {
+  border-color: #e2b96f;
+}
+
+.rooms-count {
+  font-size: 0.85rem;
+  color: #888;
+  margin-left: auto;
+}
+
+.rooms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.75rem;
+}
+
+.rooms-empty {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #888;
+}
+
+.rooms-empty span {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+}
