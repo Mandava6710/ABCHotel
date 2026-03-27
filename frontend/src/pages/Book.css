@@ -1,0 +1,20 @@
+.book-page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.book-page .page-header {
+  margin-bottom: 2rem;
+}
+
+.book-page .page-header h1 {
+  font-size: 2rem;
+  color: #1a3c5e;
+  margin: 0 0 0.5rem;
+}
+
+.book-page .page-header p {
+  color: #666;
+  margin: 0;
+}

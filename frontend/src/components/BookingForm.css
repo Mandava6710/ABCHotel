@@ -1,0 +1,119 @@
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 560px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.09);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.form-group label {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #1a3c5e;
+}
+
+.form-group input[type='text'],
+.form-group input[type='date'],
+.form-group select {
+  padding: 0.6rem 0.9rem;
+  border: 1.5px solid #c8d5e3;
+  border-radius: 7px;
+  font-size: 1rem;
+  color: #222;
+  background: #f7fafd;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #1a3c5e;
+  background: #fff;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.form-check {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.form-check input[type='checkbox'] {
+  width: 18px;
+  height: 18px;
+  accent-color: #1a3c5e;
+  cursor: pointer;
+}
+
+.form-check label {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.price-estimate {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  background: #eaf2fb;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  font-size: 0.95rem;
+  color: #1a3c5e;
+  flex-wrap: wrap;
+}
+
+.price-value {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #f0a500;
+}
+
+.price-detail {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.form-error {
+  color: #c0392b;
+  background: #fdecea;
+  border-radius: 7px;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.93rem;
+  margin: 0;
+}
+
+.btn-primary {
+  background: #1a3c5e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #245483;
+}
+
+.btn-primary:disabled {
+  background: #a0b4c8;
+  cursor: not-allowed;
+}
