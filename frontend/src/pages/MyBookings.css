@@ -1,0 +1,30 @@
+.my-bookings-page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.my-bookings-page .page-header {
+  margin-bottom: 2rem;
+}
+
+.my-bookings-page .page-header h1 {
+  font-size: 2rem;
+  color: #1a3c5e;
+  margin: 0 0 0.5rem;
+}
+
+.my-bookings-page .page-header p {
+  color: #666;
+  margin: 0;
+}
+
+.booking-success {
+  background: #e8f5e9;
+  border: 1.5px solid #66bb6a;
+  color: #2e7d32;
+  border-radius: 9px;
+  padding: 0.9rem 1.2rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.97rem;
+}
