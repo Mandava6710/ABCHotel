@@ -1,0 +1,4 @@
+/* Global reset for the app shell */
+* {
+  box-sizing: border-box;
+}
